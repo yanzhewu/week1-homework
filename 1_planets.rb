@@ -19,3 +19,9 @@ planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'Uranus', '
 #
 # Your code goes here:
 #
+number = 1
+
+planets.each do |planet|
+	puts("Planet #{number}: " + planets[number-1])
+	number = number +1;
+end
